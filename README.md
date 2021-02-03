@@ -55,7 +55,7 @@ rescue Conekta::Error => error
     puts error_detail.message
   end
 end
-
+3.- Do not forget to properly document this
 {
   "livemode": false,
   "amount": 35000,
@@ -118,8 +118,8 @@ end
 
 Please visit the [official API reference](https://developers.conekta.com/api) for an up-to-date documentation.
 
-Development and Testing
------------------------
+## Development and Testing
+
 Feel free to play with our library and make pull requests if you find any bugs.
 You can run the test suite with [rspec](https://github.com/rspec/rspec-rails) from the library's root directory:
 
@@ -135,32 +135,40 @@ docker pull conekta/conekta-ruby
 docker run -ti conekta/conekta-ruby /bin/bash --login
 ```
 
-***
+---
 
 ## How to contribute to the project
 
 1. Fork the repository
 
 2. Clone the repository
+
 ```
     git clone git@github.com:yourUserName/conekta-ruby.git
 ```
+
 3. Create a branch
+
 ```
     git checkout develop
     git pull origin develop
     # You should choose the name of your branch
     git checkout -b <feature/my_branch>
 ```
+
 4. Make necessary changes and commit those changes
+
 ```
     git add .
     git commit -m "my changes"
 ```
+
 5. Push changes to GitHub
+
 ```
     git push origin <feature/my_branch>
 ```
+
 6. Submit your changes for review, create a pull request
 
    To create a pull request, you need to have made your code changes on a separate branch. This branch should be named like this: **feature/my_feature** or **fix/my_fix**.
@@ -169,7 +177,7 @@ docker run -ti conekta/conekta-ruby /bin/bash --login
 
    If you go to your repository on GitHub, you’ll see a Compare & pull request button. Click on that button.
 
-***
+---
 
 ## We are always hiring!
 
