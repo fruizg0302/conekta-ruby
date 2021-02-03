@@ -14,6 +14,7 @@ This is a [Ruby](https://www.ruby-lang.org/) library that allows interaction wit
 ## Requeriments
 
 Add them!
+1.- I will add a new header
 
 ## Installation
 
@@ -30,9 +31,10 @@ Or install it yourself as:
     gem install conekta
 
 ## Usage
+
 ```ruby
 # Set your configuration variables
-
+2.- Set environment variables
 # This changes the Accept-Language Header to the locale specified
 Conekta.locale = :es
 
